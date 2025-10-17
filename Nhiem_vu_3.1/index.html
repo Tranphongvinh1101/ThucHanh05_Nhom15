@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Trang wed cung cấp infographic và video ngắn giúp bạn hiểu nhanh lợi ích của công nghệ số trong học tập" />
+  <title>Infographic & Video Lợi ích của công nghệ số trong học tập</title>
+  <style>
+  .description {
+    margin: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+</style>
+  <style>
+    :root{--gap:18px;--maxw:1100px}
+    body{font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial;line-height:1.4;margin:24px;display:flex;justify-content:center}
+    .wrap{width:100%;max-width:var(--maxw);display:grid;gap:var(--gap);grid-template-columns:1fr 1fr;align-items:start}
+    figure{margin:0;background:#fff;border-radius:8px;padding:12px;box-shadow:0 6px 18px rgba(0,0,0,0.08)}
+    img.infographic{width:100%;height:auto;display:block;border-radius:6px}
+    figcaption{margin-top:8px;font-size:0.95rem;color:#444}
+    .video-card{display:flex;flex-direction:column;gap:10px}
+    video{width:100%;height:auto;border-radius:6px;background:#000;outline:none}
+    .controls-row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+    .btn{padding:8px 12px;background:#0078d4;color:#fff;border-radius:6px;text-decoration:none;font-size:0.95rem}
+    .muted-note{font-size:0.85rem;color:#666}
+    @media (max-width:900px){.wrap{grid-template-columns:1fr}}
+  </style>
+</head>
+<footer>
+  <p>© 2025 Nhóm 15 </p>
+</footer>
+<body>
+  <div class="description">
+    <p>Mô tả: Trang này chia sẻ infographic và video ngắn về lợi ích của công nghệ số</p>
+  </div>
+
+  <main class="wrap" role="main">
+    <!-- phần nội dung chính của bạn -->
+  </main>
+</body>
+<body>
+  <main class="wrap" role="main">
+    <figure aria-labelledby="infographic-title">
+      <img class="infographic" src="C:\projects\Infographic Lợi ích công nghệ số trong học tập  .png" alt="Infographic mô tả các bước chính của quy trình" loading="lazy" />
+      <figcaption id="infographic-title">
+        <strong>Infographic:</strong> Tóm tắt các bước chính. Tải ảnh: 
+        <a class="btn" href="assets/infographic.png" download>Download PNG</a>
+      </figcaption>
+    </figure>
+
+    <section class="video-card" aria-labelledby="video-title">
+      <h2 id="video-title" style="margin:0 0 6px 0;font-size:1.05rem">Video minh họa (MP4)</h2>
+
+      <video controls preload="metadata" poster="assets/video-poster.jpg" playsinline>
+        <source src="https://drive.google.com/open?id=1vvqT6LTLH0ze7FBwyJNfJd-iaIhDfTsq&usp=drive_fs" type="video/mp4">
+        Trình duyệt của bạn không hỗ trợ thẻ video. <a href="assets/video.mp4">Tải video (MP4)</a>.
+      </video>
+
+      <div class="controls-row">
+        <a class="btn" href="assets/video.mp4" download>Tải video</a>
+        <span class="muted-note">Sử dụng controls để phát/tạm dừng, bật âm thanh và phóng to.</span>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
